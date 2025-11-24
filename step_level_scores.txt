@@ -1,0 +1,21 @@
+'The', 'Ġtotal', 'Ġnumber', 'Ġof', 'Ġavailable', 'Ġletters', 'Ġfor', 'Ġeach', 'Ġset', 'Ġbefore', 'Ġthe', 'Ġincrease', 'Ġwere', 'Ġ', '5', ',', 'Ġ', '3', ',', 'Ġand', 'Ġ', '4', ',', 'Ġrespectively', '.', 'ĠAfter', 'Ġadding', 'Ġone', 'Ġletter', 'Ġto', 'Ġeach', 'Ġset', ',', 'Ġthe', 'Ġnew', 'Ġnumbers', 'Ġare', 'Ġ', '6', ',', 'Ġ', '4', ',', 'Ġand', 'Ġ', '5', ',', 'Ġrespectively', '.ĊĊ',     4.8866e-03
+
+'So', ',', 'Ġthe', 'Ġtotal', 'Ġnumber', 'Ġof', 'Ġpossible', 'Ġlicense', 'Ġplates', 'Ġafter', 'Ġthe', 'Ġaddition', 'Ġis', ':Ċ', '\\[', 'Ġ', '6', 'Ġ\\', 'times', 'Ġ', '4', 'Ġ\\', 'times', 'Ġ', '5', 'Ġ\\', ']ĊĊ',     7.5474e-03
+
+'The', 'Ġtotal', 'Ġnumber', 'Ġof', 'Ġpossible', 'Ġlicense', 'Ġplates', 'Ġbefore', 'Ġthe', 'Ġaddition', 'Ġwas', ':Ċ', '\\[', 'Ġ', '5', 'Ġ\\', 'times', 'Ġ', '3', 'Ġ\\', 'times', 'Ġ', '4', 'Ġ\\', ']ĊĊ',    3.8757e-03
+
+ 'The', 'Ġdifference', 'Ġin', 'Ġthe', 'Ġnumber', 'Ġof', 'Ġlicense', 'Ġplates', 'Ġbefore', 'Ġand', 'Ġafter', 'Ġthe', 'Ġaddition', 'Ġwill', 'Ġgive', 'Ġthe', 'Ġmaximum', 'Ġnumber', 'Ġof', 'Ġadditional', 'Ġlicense', 'Ġplates', 'Ġthat', 'Ġcould', 'Ġbe', 'Ġmade', ':Ċ', '\\[', 'Ġ', '6', 'Ġ\\', 'times', 'Ġ', '4', 'Ġ\\', 'times', 'Ġ', '5', 'Ġ-', 'Ġ', '5', 'Ġ\\', 'times', 'Ġ', '3', 'Ġ\\', 'times', 'Ġ', '4', 'Ġ\\', ']Ċ',    -1.0567e-03
+
+ '```', 'python', 'Ċ', '#', 'ĠDefine', 'Ġthe', 'Ġoriginal', 'Ġand', 'Ġnew', 'Ġnumber', 'Ġof', 'Ġletters', 'Ġfor', 'Ġeach', 'Ġset', 'Ċ', 'original', '_first', '_letter', 'Ġ=', 'Ġ', '5', 'Ċ', 'original', '_second', '_letter', 'Ġ=', 'Ġ', '3', 'Ċ', 'original', '_third', '_letter', 'Ġ=', 'Ġ', '4', 'Ċ', 'new', '_first', '_letter', 'Ġ=', 'Ġoriginal', '_first', '_letter', 'Ġ+', 'Ġ', '1', 'Ċ', 'new', '_second', '_letter', 'Ġ=', 'Ġoriginal', '_second', '_letter', 'Ġ+', 'Ġ', '1', 'Ċ', 'new', '_third', '_letter', 'Ġ=', 'Ġoriginal', '_third', '_letter', 'Ġ+', 'Ġ', '1', 'ĊĊ',    3.2478e-02
+
+ '#', 'ĠCalculate', 'Ġthe', 'Ġtotal', 'Ġnumber', 'Ġof', 'Ġpossible', 'Ġlicense', 'Ġplates', 'Ġbefore', 'Ġand', 'Ġafter', 'Ġthe', 'Ġaddition', 'Ċ', 'total', '_pl', 'ates', '_before', 'Ġ=', 'Ġoriginal', '_first', '_letter', 'Ġ*', 'Ġoriginal', '_second', '_letter', 'Ġ*', 'Ġoriginal', '_third', '_letter', 'Ċ', 'total', '_pl', 'ates', '_after', 'Ġ=', 'Ġnew', '_first', '_letter', 'Ġ*', 'Ġnew', '_second', '_letter', 'Ġ*', 'Ġnew', '_third', '_letter', 'ĊĊ',    3.4531e-02
+
+ '#', 'ĠCalculate', 'Ġthe', 'Ġnumber', 'Ġof', 'Ġadditional', 'Ġlicense', 'Ġplates', 'Ġthat', 'Ġcan', 'Ġbe', 'Ġmade', 'Ċ', 'additional', '_pl', 'ates', 'Ġ=', 'Ġtotal', '_pl', 'ates', '_after', 'Ġ-', 'Ġtotal', '_pl', 'ates', '_before', 'ĊĊ',    1.0289e-01
+
+ 'print', '(add', 'itional', '_pl', 'ates', ')Ċ', '``', '`Ċ',    5.0079e-02
+
+None
+
+ '```', 'output', 'Ċ', '3', '6', 'Ċ', '``', '`Ċ',    3.1945e+00
+
+ 'The', 'Ġlargest', 'Ġpossible', 'Ġnumber', 'Ġof', 'Ġadditional', 'Ġlicense', 'Ġplates', 'Ġthat', 'Ġcan', 'Ġbe', 'Ġmade', 'Ġby', 'Ġadding', 'Ġone', 'Ġnew', 'Ġletter', 'Ġto', 'Ġeach', 'Ġset', 'Ġis', 'Ġ\\', '(\\', 'boxed', '{', '3', '6', '}\\', ').'
