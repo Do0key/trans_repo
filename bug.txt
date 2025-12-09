@@ -1,0 +1,137 @@
+[16:40:13.169] Log Level: 2
+[16:40:13.186] SSH Resolver called for "ssh-remote+youwei", attempt 1
+[16:40:13.187] "remote.SSH.useLocalServer": false
+[16:40:13.187] "remote.SSH.useExecServer": true
+[16:40:13.187] "remote.SSH.showLoginTerminal": true
+[16:40:13.187] "remote.SSH.remotePlatform": {"Huawei":"linux","10.90.224.77":"linux","youwei":"linux","10.90.25.61":"linux","7.242.97.45":"linux"}
+[16:40:13.187] "remote.SSH.path": undefined
+[16:40:13.187] "remote.SSH.configFile": undefined
+[16:40:13.187] "remote.SSH.useFlock": true
+[16:40:13.188] "remote.SSH.lockfilesInTmp": false
+[16:40:13.188] "remote.SSH.localServerDownload": auto
+[16:40:13.188] "remote.SSH.remoteServerListenOnSocket": false
+[16:40:13.188] "remote.SSH.showLoginTerminal": true
+[16:40:13.188] "remote.SSH.defaultExtensions": []
+[16:40:13.188] "remote.SSH.loglevel": 2
+[16:40:13.188] "remote.SSH.enableDynamicForwarding": true
+[16:40:13.188] "remote.SSH.enableRemoteCommand": false
+[16:40:13.188] "remote.SSH.serverPickPortsFromRange": {}
+[16:40:13.190] "remote.SSH.serverInstallPath": {}
+[16:40:13.190] "remote.SSH.permitPtyAllocation": false
+[16:40:13.190] "remote.SSH.preferredLocalPortRange: undefined
+[16:40:13.190] "remote.SSH.useCurlAndWgetConfigurationFiles: false
+[16:40:13.197] VS Code version: 1.94.2
+[16:40:13.197] Remote-SSH version: remote-ssh@0.114.3
+[16:40:13.197] win32 x64
+[16:40:13.200] SSH Resolver called for host: youwei
+[16:40:13.200] Setting up SSH remote "youwei"
+[16:40:13.205] Using commit id "384ff7382de624fb94dbaf6da11977bba1ecd427" and quality "stable" for server
+[16:40:13.208] Script variables:
+ {
+  "InstallExitCode.24": "AlreadyInProgress",
+  "InstallExitCode.25": "ServerDownloadFailed",
+  "InstallExitCode.26": "NoDownloaderAvailable",
+  "InstallExitCode.27": "UnsupportedArch",
+  "InstallExitCode.28": "StatusCheckFailed",
+  "InstallExitCode.29": "NeedInsidersArch",
+  "InstallExitCode.30": "NoDownloaderAvailableForStatusCheck",
+  "InstallExitCode.31": "ServerTransferFailed",
+  "InstallExitCode.32": "ServerFailedToStart",
+  "InstallExitCode.33": "NeedInsidersWindows",
+  "InstallExitCode.34": "CreateInstallDirFailed",
+  "InstallExitCode.35": "UnsupportedPlatform",
+  "InstallExitCode.36": "ServerTerminatedCVE20201416",
+  "InstallExitCode.37": "UnpackFailed",
+  "InstallExitCode.38": "ChangeDirFailed",
+  "InstallExitCode.AlreadyInProgress": "24",
+  "InstallExitCode.ServerDownloadFailed": "25",
+  "InstallExitCode.NoDownloaderAvailable": "26",
+  "InstallExitCode.NoDownloaderAvailableForStatusCheck": "30",
+  "InstallExitCode.UnsupportedArch": "27",
+  "InstallExitCode.StatusCheckFailed": "28",
+  "InstallExitCode.NeedInsidersArch": "29",
+  "InstallExitCode.ServerTransferFailed": "31",
+  "InstallExitCode.ServerFailedToStart": "32",
+  "InstallExitCode.NeedInsidersWindows": "33",
+  "InstallExitCode.CreateInstallDirFailed": "34",
+  "InstallExitCode.UnsupportedPlatform": "35",
+  "InstallExitCode.ServerTerminatedCVE20201416": "36",
+  "InstallExitCode.UnpackFailed": "37",
+  "InstallExitCode.ChangeDirFailed": "38",
+  "InstallUnpackCode.Success": "success",
+  "InstallUnpackCode.Error": "error",
+  "InstallUnpackCode.MissingFiles": "missingFiles",
+  "uuid": "42ef0a537ae6",
+  "startMarker": "42ef0a537ae6: running",
+  "commitId": "384ff7382de624fb94dbaf6da11977bba1ecd427",
+  "quality": "stable",
+  "token": "aa1a1a1a-aa11-1a11-aa11-aaa111a11a11",
+  "vscodeAgentFolder": "$HOME/.vscode-server",
+  "allowClientDownload": "1",
+  "forceClientDownload": "0",
+  "cliNameInArchive": "code",
+  "ignoreWgetConfigFlag": " --no-config ",
+  "ignoreCurlConfigFlag": " --disable ",
+  "wgetTriesSegment": "--tries=1",
+  "listenArgs": "--on-host=127.0.0.1 --on-port",
+  "getDownloadServerStartTrigger": "42ef0a537ae6:trigger_server_download",
+  "getDownloadServerEndTrigger": "42ef0a537ae6:trigger_server_download_end",
+  "getProgressDownloading": "42ef0a537ae6%%1%%",
+  "getProgressInstalling": "42ef0a537ae6%%2%%"
+}
+[16:40:13.211] Install and start server if needed
+[16:40:13.217] Checking ssh with "C:\WINDOWS\ssh.exe -V"
+[16:40:13.220] Got error from ssh: spawn C:\WINDOWS\ssh.exe ENOENT
+[16:40:13.220] Checking ssh with "C:\WINDOWS\system32\ssh.exe -V"
+[16:40:13.222] Got error from ssh: spawn C:\WINDOWS\system32\ssh.exe ENOENT
+[16:40:13.222] Checking ssh with "C:\WINDOWS\System32\Wbem\ssh.exe -V"
+[16:40:13.223] Got error from ssh: spawn C:\WINDOWS\System32\Wbem\ssh.exe ENOENT
+[16:40:13.223] Checking ssh with "C:\WINDOWS\System32\WindowsPowerShell\v1.0\ssh.exe -V"
+[16:40:13.225] Got error from ssh: spawn C:\WINDOWS\System32\WindowsPowerShell\v1.0\ssh.exe ENOENT
+[16:40:13.225] Checking ssh with "C:\Windows\ssh.exe -V"
+[16:40:13.227] Got error from ssh: spawn C:\Windows\ssh.exe ENOENT
+[16:40:13.227] Checking ssh with "C:\Windows\system32\ssh.exe -V"
+[16:40:13.229] Got error from ssh: spawn C:\Windows\system32\ssh.exe ENOENT
+[16:40:13.229] Checking ssh with "C:\Windows\System32\Wbem\ssh.exe -V"
+[16:40:13.231] Got error from ssh: spawn C:\Windows\System32\Wbem\ssh.exe ENOENT
+[16:40:13.231] Checking ssh with "C:\Windows\System32\WindowsPowerShell\v1.0\ssh.exe -V"
+[16:40:13.233] Got error from ssh: spawn C:\Windows\System32\WindowsPowerShell\v1.0\ssh.exe ENOENT
+[16:40:13.234] Checking ssh with "C:\WINDOWS\System32\WindowsPowerShell\v1.0\ssh.exe -V"
+[16:40:13.236] Got error from ssh: spawn C:\WINDOWS\System32\WindowsPowerShell\v1.0\ssh.exe ENOENT
+[16:40:13.236] Checking ssh with "C:\WINDOWS\System32\OpenSSH\ssh.exe -V"
+[16:40:13.449] > OpenSSH_for_Windows_9.5p1, LibreSSL 3.8.2
+
+[16:40:13.456] Running script with connection command: "C:\WINDOWS\System32\OpenSSH\ssh.exe" -T -D 58825 youwei sh
+[16:40:13.457] Generated SSH command: 'type "C:\Users\AWX137~1\AppData\Local\Temp\vscode-linux-multi-line-command-youwei-51602662.sh" | "C:\WINDOWS\System32\OpenSSH\ssh.exe" -T -D 58825 youwei sh'
+[16:40:13.458] Terminal shell path: C:\WINDOWS\System32\cmd.exe
+[16:40:14.228] > [?9001h[?1004h
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> 
+> ]0;C:\WINDOWS\System32\cmd.exe 
+[16:40:14.228] Got some output, clearing connection timeout
+[16:40:35.441] > ssh: connect to host 10.90.224.152 port 22: Connection timed out
+[16:40:35.448] > 过程试图写入的管道不存在。
+[16:40:36.743] "install" terminal command done
+[16:40:36.743] Install terminal quit with output: 过程试图写入的管道不存在。
+[16:40:36.743] Received install output: 过程试图写入的管道不存在。
+[16:40:36.744] Failed to parse remote port from server output
+[16:40:36.746] Resolver error: Error: 
+	at v.Create (c:\Users\awx1374554\.vscode\extensions\ms-vscode-remote.remote-ssh-0.114.3\out\extension.js:2:501404)
+	at t.handleInstallOutput (c:\Users\awx1374554\.vscode\extensions\ms-vscode-remote.remote-ssh-0.114.3\out\extension.js:2:498726)
+	at t.tryInstall (c:\Users\awx1374554\.vscode\extensions\ms-vscode-remote.remote-ssh-0.114.3\out\extension.js:2:616460)
+	at async c:\Users\awx1374554\.vscode\extensions\ms-vscode-remote.remote-ssh-0.114.3\out\extension.js:2:575788
+	at async t.withShowDetailsEvent (c:\Users\awx1374554\.vscode\extensions\ms-vscode-remote.remote-ssh-0.114.3\out\extension.js:2:579017)
+	at async k (c:\Users\awx1374554\.vscode\extensions\ms-vscode-remote.remote-ssh-0.114.3\out\extension.js:2:572574)
+	at async t.resolve (c:\Users\awx1374554\.vscode\extensions\ms-vscode-remote.remote-ssh-0.114.3\out\extension.js:2:576428)
+	at async c:\Users\awx1374554\.vscode\extensions\ms-vscode-remote.remote-ssh-0.114.3\out\extension.js:2:844803
+[16:40:36.750] ------
+
+
+
+
