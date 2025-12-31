@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "/media/SSD7/personal/wangguiqin/verl/recipe/counterfactual_weight_by_logit_breakpoint_position_divided_final_position_inter_step/main_prime.py", line 43, in main
+    run_prime(config)
+  File "/media/SSD7/personal/wangguiqin/verl/recipe/counterfactual_weight_by_logit_breakpoint_position_divided_final_position_inter_step/main_prime.py", line 55, in run_prime
+    ray.get(main_task.remote(config, compute_score))
+  File "/home/youwei/miniconda3/envs/verl/lib/python3.10/site-packages/ray/_private/auto_init_hook.py", line 22, in auto_init_wrapper
+    return fn(*args, **kwargs)
+  File "/home/youwei/miniconda3/envs/verl/lib/python3.10/site-packages/ray/_private/client_mode_hook.py", line 104, in wrapper
+    return func(*args, **kwargs)
+  File "/home/youwei/miniconda3/envs/verl/lib/python3.10/site-packages/ray/_private/worker.py", line 2849, in get
+    values, debugger_breakpoint = worker.get_objects(object_refs, timeout=timeout)
+  File "/home/youwei/miniconda3/envs/verl/lib/python3.10/site-packages/ray/_private/worker.py", line 937, in get_objects
+    raise value.as_instanceof_cause()
+ray.exceptions.RayTaskError(RuntimeError): ray::main_task() (pid=3450676, ip=10.90.224.152)
+  File "/media/SSD7/personal/wangguiqin/verl/recipe/counterfactual_weight_by_logit_breakpoint_position_divided_final_position_inter_step/main_prime.py", line 254, in main_task
+    trainer.fit()
+  File "/media/SSD7/personal/wangguiqin/verl/recipe/counterfactual_weight_by_logit_breakpoint_position_divided_final_position_inter_step/prime_ray_trainer.py", line 536, in fit
+    reward_output = self.rm_wg.update_rm(batch)
+  File "/media/SSD7/personal/wangguiqin/verl/verl/single_controller/ray/base.py", line 50, in __call__
+    output = ray.get(output)
+ray.exceptions.RayTaskError(RuntimeError): ray::WorkerDict.rm_update_rm() (pid=3461539, ip=10.90.224.152, actor_id=88e3816f5606be2e688d54c901000000, repr=<verl.single_controller.ray.base.WorkerDict object at 0x7f076c8eb850>)
+  File "/media/SSD7/personal/wangguiqin/verl/verl/single_controller/ray/base.py", line 720, in func
+    return getattr(self.worker_dict[key], name)(*args, **kwargs)
+  File "/media/SSD7/personal/wangguiqin/verl/verl/single_controller/base/decorator.py", line 514, in inner
+    return func(*args, **kwargs)
+  File "/media/SSD7/personal/wangguiqin/verl/recipe/counterfactual_weight_by_logit_breakpoint_position_divided_final_position_inter_step/prime_fsdp_workers.py", line 325, in update_rm
+    rm_scores, metrics = self.rm.update_rm(data=data)
+  File "/media/SSD7/personal/wangguiqin/verl/recipe/counterfactual_weight_by_logit_breakpoint_position_divided_final_position_inter_step/prime_dp_rm.py", line 376, in update_rm
+    data = {"reward_model/dpo_loss": dpo_loss.detach().item()}
+RuntimeError: CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
